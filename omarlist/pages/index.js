@@ -7,12 +7,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <head>
+      <Head>
         <title>
-          Omar List Page
+          Omar List Page | Home
         </title>
         <meta name="keywords" content='ninjas'/>
-      </head>
+      </Head>
       <div>
       
         <h1 className={styles.title}>Home Page</h1>
