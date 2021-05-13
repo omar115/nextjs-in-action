@@ -15,10 +15,11 @@ const NotFound = () => {
 
     return (  
         <div className="not-found">
-            <h1>OOOoops....</h1>
-            <h2>The page can not be found.....</h2>
-            <br></br>
-            <p>Go back to <Link href="/"><a>HomePage</a></Link></p>
+            <h1>Oops.....</h1>
+            <h2>The page can not be found.</h2>
+            
+            <p>Click to go back to <Link href="/"><a>HomePage</a></Link></p>
+            <p>Will be redirecting to Home Page soon...</p>
 
         </div>
     );

@@ -1,7 +1,8 @@
 const Footer = () => {
     return ( 
         <footer>
-            copyright 2021 Omar List
+            
+            Copyright &copy; Odileon
         </footer>
     );
 }
