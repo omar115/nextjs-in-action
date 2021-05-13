@@ -9,26 +9,25 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Omar List Page | Home
+          Odileon Contact List | Home
         </title>
         <meta name="keywords" content='ninjas'/>
       </Head>
       <div>
       
         <h1 className={styles.title}>Home Page</h1>
-        <p className={styles.text}>Text messaging, or texting, is the act of composing and sending electronic messages, 
-        typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, 
-        desktops/laptops, or other type of compatible computer. Text messages may be sent over a cellular network, 
-        or may also be sent via an Internet connection.
-
-        The term originally referred to messages sent using the Short Message Service (SMS). 
-        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia Messaging Service (MMS) 
-        containing digital images, videos, and sound content, as well as ideograms known as emoji 
-        (happy faces, sad faces, and other icons), and instant messenger applications 
-        (usually the term is used when on mobile devices).</p>
+        <p className={styles.text}> Odileon is a Startup company founded by famous Dr. Gilbert and his friends.
+        With a vision of materializing the modern A.I. they developed Artificial Intelligent bot which can
+        make innovative solutions to complex problems. Suppose the A.I. can be a great problem solver in 
+        financial sectors.
+        Odileon has made different potential investors, shareholders to contribute and make a large company. It
+        has already gain so much popularity and therefore, people are interested to buy bots in their business.
+        In this website, Odileon has made some good friends including potential clients. The client list will
+        be given here and anyone can fetch the data.
+        </p>
         
         <Link href="/ninjas">
-          <a className={styles.btn}>Show Omar List</a>
+          <a className={styles.btn}>Show Data</a>
         </Link>
       
       </div>
